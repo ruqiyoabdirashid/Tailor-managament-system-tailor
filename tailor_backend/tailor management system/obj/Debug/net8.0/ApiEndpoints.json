@@ -1,0 +1,264 @@
+[
+  {
+    "ContainingType": "tailor_management_system.Controllers.CustomersController",
+    "Method": "AddCustomer",
+    "RelativePath": "api/Customers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "tailor_management_system.Models.Customer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.CustomersController",
+    "Method": "DeleteCustomer",
+    "RelativePath": "api/Customers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.CustomersController",
+    "Method": "GetCustomers",
+    "RelativePath": "api/Customers/Get_Customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.CustomersController",
+    "Method": "UpdateCustomer",
+    "RelativePath": "api/Customers/UpdateCustomer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "tailor_management_system.Models.Customer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.MeasurementsController",
+    "Method": "AddMeasurement",
+    "RelativePath": "api/Measurements",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "measurement",
+        "Type": "tailor_management_system.Models.Measurement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.MeasurementsController",
+    "Method": "DeleteMeasurement",
+    "RelativePath": "api/Measurements/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.MeasurementsController",
+    "Method": "GetMeasurements",
+    "RelativePath": "api/Measurements/Get_Measurements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.MeasurementsController",
+    "Method": "GetOrdersForMeasurements",
+    "RelativePath": "api/Measurements/orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.MeasurementsController",
+    "Method": "UpdateMeasurement",
+    "RelativePath": "api/Measurements/UpdateMeasuremet",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "measurement",
+        "Type": "tailor_management_system.Models.Measurement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.OrdersController",
+    "Method": "AddOrder",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "tailor_management_system.Models.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.OrdersController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Orders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.OrdersController",
+    "Method": "GetCustomersForOrders",
+    "RelativePath": "api/Orders/customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.OrdersController",
+    "Method": "GetOrders",
+    "RelativePath": "api/Orders/Get_Orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.OrdersController",
+    "Method": "GetTailorsForOrders",
+    "RelativePath": "api/Orders/tailors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.OrdersController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/Orders/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "tailor_management_system.Models.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.TailorsController",
+    "Method": "AddTailor",
+    "RelativePath": "api/Tailors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tailor",
+        "Type": "tailor_management_system.Models.Tailor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.TailorsController",
+    "Method": "DeleteTailor",
+    "RelativePath": "api/Tailors/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.TailorsController",
+    "Method": "GetTailors",
+    "RelativePath": "api/Tailors/Get_Tailor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tailor_management_system.Controllers.TailorsController",
+    "Method": "UpdateTailor",
+    "RelativePath": "api/Tailors/UpdateTailor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tailor",
+        "Type": "tailor_management_system.Models.Tailor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
