@@ -1,0 +1,53 @@
+Customers
+
+CREATE TABLE Customers
+(
+    CustomerID INT IDENTITY(1,1) PRIMARY KEY,
+    CustomerName NVARCHAR(100) NOT NULL,
+    Phone NVARCHAR(20) NOT NULL,
+    Address NVARCHAR(200)
+);
+Tailors
+CREATE TABLE Tailors
+(
+    TailorID INT IDENTITY(1,1) PRIMARY KEY,
+    TailorName NVARCHAR(100) NOT NULL,
+    Phone NVARCHAR(20) NOT NULL,
+    Specialty NVARCHAR(100)
+);
+Orders
+CREATE TABLE Orders
+(
+    OrderID INT IDENTITY(1,1) PRIMARY KEY,
+
+    CustomerID INT NOT NULL,
+    TailorID INT NOT NULL,
+    OrderName VARCHAR(100) NOT NULL
+    OrderDate DATE NOT NULL,
+    DeliveryDate DATE NOT NULL,
+    TotalAmount DECIMAL(10,2) NOT NULL,
+   
+
+    CONSTRAINT FK_Orders_Customers
+        FOREIGN KEY (CustomerID)
+        REFERENCES Customers(CustomerID),
+
+    CONSTRAINT FK_Orders_Tailors
+        FOREIGN KEY (TailorID)
+        REFERENCES Tailors(TailorID)
+);
+Measurements
+CREATE TABLE Measurements
+(
+    MeasurementID INT IDENTITY(1,1) PRIMARY KEY,
+
+    OrderID INT NOT NULL,
+
+    Chest DECIMAL(5,2),
+    Waist DECIMAL(5,2),
+    Length DECIMAL(5,2),
+
+    CONSTRAINT FK_Measurements_Orders
+        FOREIGN KEY (OrderID)
+        REFERENCES Orders(OrderID)
+);
