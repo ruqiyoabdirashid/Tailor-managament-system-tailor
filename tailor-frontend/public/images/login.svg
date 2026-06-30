@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+  <rect width="600" height="500" fill="#1a2b4a"/>
+  <circle cx="300" cy="200" r="100" fill="#c9a227" opacity="0.15"/>
+  <text x="300" y="220" text-anchor="middle" font-size="80" fill="#c9a227">=T</text>
+  <text x="300" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="white" font-weight="600">Tailor Pro</text>
+  <text x="300" y="400" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="rgba(255,255,255,0.5)">Ku dar sawir: public/images/login.jpg</text>
+</svg>
